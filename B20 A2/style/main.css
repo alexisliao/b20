@@ -57,11 +57,21 @@ li a.active {
     background-color:pink;
     color: white;
 }
+
 li a:hover:not(.active) {
     background-color:darkseagreen;
     color: white;
 }
 
+body {
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+	background-color:Powderblue;
+}
 
 main{
     border-left: 1px darkolivegreen;
