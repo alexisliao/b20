@@ -62,6 +62,14 @@ li a:hover:not(.active) {
     color: white;
 }
 
+body {
+    right: 0;
+    bottom: 0;
+    left: 0;
+	margin: 0 auto;
+    display: block;
+	background-color:Powderblue;
+}
 
 main{
     border-left: 1px darkolivegreen;
