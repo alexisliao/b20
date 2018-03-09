@@ -15,7 +15,7 @@ div.container{
 footer {
     width:100%;
      background-color: honeydew;
-    margin-top: 20px;
+    margin-top: 10px;
     text-align:center;
 
 } 
@@ -28,7 +28,12 @@ header{
     clear: left;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 100%
+    font-size: 100%;
+    text-shadow: 3px 2px burlywood;
+}
+
+header p{
+    float: right;
 }
 
 
@@ -46,25 +51,27 @@ nav{
     padding-bottom:100px;
 }
 
-li a.active:hover{
+nav li a.active:hover{
     background-color:salmon;
     color: white;
+    text-shadow: 3px 2px burlywood;
 }
 
-li a{
+nav li a{
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
 }
 
-li a.active {
+nav li a.active {
     background-color:pink;
     color: white;
 }
-li a:hover:not(.active) {
+nav li a:hover:not(.active) {
     background-color:darkseagreen;
     color: white;
+    text-shadow: 3px 2px burlywood;
 }
 
 
@@ -79,3 +86,22 @@ main{
     font-size: 110%;
 }
 
+main p a{
+    display: block;
+    color: rebeccapurple;
+}
+
+main p a:hover:not(.active) {
+    background-color:none;
+    color: burlywood;
+}
+
+main ul li a{
+    display: block;
+    color: rebeccapurple;
+}
+
+main ul li a:hover:not(.active){
+    background-color:none;
+    color: burlywood;
+}
