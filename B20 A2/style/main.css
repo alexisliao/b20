@@ -1,7 +1,7 @@
 body{
     position:relative;
     max-height: 100%;
-    max-width: 1500px;
+    max-width: 1500%;
     margin: auto;
     background-color: powderblue;
 }
@@ -9,13 +9,13 @@ body{
 div.container{
     width: 100%;
     min-height:100%;
-    border: 1px;
+    border: 1%;
 }
 
 footer {
     width:100%;
      background-color: honeydew;
-    margin-top: 10px;
+    margin-top: 10%;
     text-align:center;
 
 } 
@@ -29,7 +29,7 @@ header{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 100%;
-    text-shadow: 3px 2px burlywood;
+    text-shadow: 3px 2px 5px burlywood;
 }
 
 header p{
@@ -54,7 +54,7 @@ nav{
 nav li a.active:hover{
     background-color:salmon;
     color: white;
-    text-shadow: 3px 2px burlywood;
+    text-shadow: 3px 2px 2px burlywood;
 }
 
 nav li a{
@@ -71,7 +71,7 @@ nav li a.active {
 nav li a:hover:not(.active) {
     background-color:darkseagreen;
     color: white;
-    text-shadow: 3px 2px burlywood;
+    text-shadow: 3px 2px 2px burlywood;
 }
 
 
